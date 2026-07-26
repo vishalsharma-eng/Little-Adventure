@@ -1,15 +1,4 @@
-/* ======================================================================
-   HAPPY 23RD BIRTHDAY — script.js
-   ----------------------------------------------------------------------
-   Everything editable lives in the DATA section right below. Change
-   names, photo captions, wishes, missions or the final letter here —
-   you should not need to touch the HTML or CSS for content changes.
-   ====================================================================== */
 
-/* ============================== DATA ============================== */
-
-// Memory photo captions. Point `src` at your own file in /images.
-// Placeholder SVGs are already in /images so the page works out of the box.
 const MEMORIES = [
   { src: "images/memory-1.svg",  caption: "Our first selfie" },
   { src: "images/memory-2.svg",  caption: "The day we laughed the hardest" },
