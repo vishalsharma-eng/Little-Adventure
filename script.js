@@ -1,15 +1,15 @@
 
 const MEMORIES = [
-  { src: "images/memory-1.svg",  caption: "Our first selfie" },
-  { src: "images/memory-2.svg",  caption: "The day we laughed the hardest" },
-  { src: "images/memory-3.svg",  caption: "My favourite smile" },
-  { src: "images/memory-4.svg",  caption: "You made this day unforgettable" },
-  { src: "images/memory-5.svg",  caption: "That random Tuesday that felt like magic" },
-  { src: "images/memory-6.svg",  caption: "Rainy day, warm hearts" },
-  { src: "images/memory-7.svg",  caption: "The trip we still talk about" },
-  { src: "images/memory-8.svg",  caption: "Midnight conversations" },
-  { src: "images/memory-9.svg",  caption: "You, mid-laugh, unaware I was staring" },
-  { src: "images/memory-10.svg", caption: "Right here, right now" },
+  { src: "images/memory-1.jpg",  caption: "Our first selfie" },
+  { src: "images/memory-2.jpg",  caption: "The day we laughed the hardest" },
+  { src: "images/memory-3.jpg",  caption: "My favourite smile" },
+  { src: "images/memory-4.jpg",  caption: "You made this day unforgettable" },
+  { src: "images/memory-5.jpg",  caption: "That random Tuesday that felt like magic" },
+  { src: "images/memory-6.jpg",  caption: "Rainy day, warm hearts" },
+  { src: "images/memory-7.jpg",  caption: "The trip we still talk about" },
+  { src: "images/memory-8.jpg",  caption: "Midnight conversations" },
+  { src: "images/memory-9.jpg",  caption: "You, mid-laugh, unaware I was staring" },
+  { src: "images/memory-10.jpg", caption: "Right here, right now" },
 ];
 
 // Typed one at a time in the Wishes section.
