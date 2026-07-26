@@ -1,6 +1,6 @@
 
 const MEMORIES = [
-  { src: "images/memory-1.jpg",  caption: "Our first selfie" },
+  { src: "images/memory-1.svg",  caption: "Our first selfie" },
   { src: "images/memory-2.svg",  caption: "The day we laughed the hardest" },
   { src: "images/memory-3.svg",  caption: "My favourite smile" },
   { src: "images/memory-4.svg",  caption: "You made this day unforgettable" },
