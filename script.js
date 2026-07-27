@@ -6,8 +6,8 @@ const MEMORIES = [
   { src: "images/memory-3.jpg",  caption: "My favourite smile" },
   { src: "images/memory-4.jpg",  caption: "You made this day unforgettable" },
   { src: "images/memory-5.jpg",  caption: "Our first shopping day." },
-  { src: "images/memory-7.jpg",  caption: "The trip we still talk about" },
-  { src: "images/memory-8.jpg",  caption: "Midnight conversations" },
+  { src: "images/memory-7.jpg",  caption: "Shetaaann😂😚" },
+  { src: "images/memory-8.jpg",  caption: "Our nautankii🫣" },
 ];
 
 // Typed one at a time in the Wishes section.
@@ -41,111 +41,8 @@ const MISSIONS = [
   { icon: "🕯️", text: "Make a birthday wish." },
   { icon: "🏇", text: "Take me for a horse ride.." },
   { icon: "✍️", text: "Write down one goal for this new year." },
-  { icon: "🎁", text: "Give me a challenge.." },
-  { icon: "💌", text: "I think it's time for Envelope #2" },
-  { icon: "🫣", text: "Give me a Kiss anywhere, except lips." },
-  { icon: "💭", text: "Tell me a dream you haven't said out loud." },
-  { icon: "🖐️", text: "Teach me one dance move... even if it's completely random." },
-  { icon: "😘", text: "Give me a kiss on the cheek." },
-  { icon: "✨", text: "Let's Dance together" },
-];
-
-// The handwritten letter revealed inside the gift box.
-const LETTER_LINES =
-`My love,
-
-Twenty-three little adventures, and you still showed up for every one of them.
-
-I built this whole strange, glowing little world just to say the simple things I sometimes forget to say out loud: thank you, I'm proud of you, and I love the life we're building together.
-
-Here's to this year, and every one after it.
-
-Forever yours.`;
-
-// Ending slideshow reuses the memory photos by default.
-const ENDING_SLIDES = MEMORIES.map(m => m.src);
-
-
-/* ============================== UTILITIES ============================== */
-
-const qs  = (sel, ctx = document) => ctx.querySelector(sel);
-const qsa = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
-
-function el(tag, className, html) {
-  const node = document.createElement(tag);
-  if (className) node.className = className;
-  if (html !== undefined) node.innerHTML = html;
-  return node;
-}
-
-function rand(min, max) { return Math.random() * (max - min) + min; }
-
-
-/* ============================== PRELOADER ============================== */
-
-window.addEventListener("load", () => {
-  setTimeout(() => {
-    qs("#preloader").classList.add("loaded");
-    startHeroSequence();
-  }, 900);
-});
-
-
-/* ============================== FX CANVAS (confetti / fireworks / sparkles) ============================== */
-
-const fxCanvas = qs("#fx-canvas");
-const fxCtx = fxCanvas.getContext("2d");
-let fxParticles = [];
-
-function resizeFxCanvas() {
-  fxCanvas.width = window.innerWidth;
-  fxCanvas.height = window.innerHeight;
-}
-resizeFxCanvas();
-window.addEventListener("resize", resizeFxCanvas);
-
-const CONFETTI_COLORS = ["#e0839c", "#ff6f91", "#ffd2de", "#ffd6e0", "#a84f68"];
-
-function spawnConfetti(count = 80, originX = null, originY = -20) {
-  for (let i = 0; i < count; i++) {
-    fxParticles.push({
-      type: "confetti",
-      x: originX !== null ? originX : rand(0, fxCanvas.width),
-      y: originY,
-      vx: rand(-2.2, 2.2),
-      vy: rand(1.5, 4.5),
-      size: rand(5, 10),
-      color: CONFETTI_COLORS[Math.floor(rand(0, CONFETTI_COLORS.length))],
-      rotation: rand(0, 360),
-      vr: rand(-8, 8),
-      life: 0,
-      maxLife: rand(180, 260),
-    });
-  }
-}
-
-function spawnPopper(fromLeft = true) {
-  const originX = fromLeft ? 0 : fxCanvas.width;
-  const dir = fromLeft ? 1 : -1;
-  for (let i = 0; i < 60; i++) {
-    fxParticles.push({
-      type: "confetti",
-      x: originX,
-      y: fxCanvas.height * rand(0.5, 0.8),
-      vx: dir * rand(4, 10),
-      vy: rand(-9, -3),
-      size: rand(4, 8),
-      color: CONFETTI_COLORS[Math.floor(rand(0, CONFETTI_COLORS.length))],
-      rotation: rand(0, 360),
-      vr: rand(-10, 10),
-      life: 0,
-      maxLife: rand(140, 200),
-      gravity: 0.18,
-    });
-  }
-}
-
-function spawnFirework(x = null, y = null) {
+  { icon: "🎁", text: "Give
+    function spawnFirework(x = null, y = null) {
   const fx = x !== null ? x : rand(fxCanvas.width * 0.2, fxCanvas.width * 0.8);
   const fy = y !== null ? y : rand(fxCanvas.height * 0.15, fxCanvas.height * 0.45);
   const color = CONFETTI_COLORS[Math.floor(rand(0, CONFETTI_COLORS.length))];
