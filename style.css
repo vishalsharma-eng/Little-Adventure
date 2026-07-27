@@ -15,6 +15,7 @@
   --gold-dim:     #c2486a;
   --pink:         #ff6f91;
   --pink-soft:    #ff4d94;
+  --cream-mem:    white;
   --cream:        black;
   --cream-dim:    rgba(107, 29, 67, 0.65);
   --glass-border: rgba(255, 92, 138, 0.35);
@@ -277,7 +278,7 @@ img{ max-width:100%; display:block; }
 }
 .memory-caption{
   position:absolute; left:0; right:0; bottom:0; padding: 18px 16px;
-  font-family: var(--font-serif); font-style: italic; font-size: 16px; color: var(--cream);
+  font-family: var(--font-serif); font-style: italic; font-size: 26px; color: var(--cream-mem);
   z-index:2;
 }
 .memory-glow-ring{
