@@ -11,12 +11,12 @@
 // Memory photo captions. Point `src` at your own file in /images.
 // Placeholder SVGs are already in /images so the page works out of the box.
 const MEMORIES = [
-  { src: "images/memory-6.jpg",  caption: "Cutie Pie" },
-  { src: "images/memory-1.jpg",  caption: "Our first photo" },
-  { src: "images/memory-2.jpg",  caption: "My favourite One." },
-  { src: "images/memory-3.jpg",  caption: "My favourite smile" },
-  { src: "images/memory-4.jpg",  caption: "You made this day unforgettable" },
-  { src: "images/memory-5.jpg",  caption: "Our first shopping day." },
+  { src: "images/memory-6.jpg",  caption: "Cutie Pie😘" },
+  { src: "images/memory-1.jpg",  caption: "Our first photo🥰" },
+  { src: "images/memory-2.jpg",  caption: "My favourite One.🫣" },
+  { src: "images/memory-3.jpg",  caption: "My favourite smile🥹" },
+  { src: "images/memory-4.jpg",  caption: "You made this day unforgettable😍" },
+  { src: "images/memory-5.jpg",  caption: "Our first shopping day.😂" },
   { src: "images/memory-7.jpg",  caption: "Shetaaann😂😚" },
   { src: "images/memory-8.jpg",  caption: "Our nautankii🫣" },
 ];
@@ -53,7 +53,7 @@ const MISSIONS = [
   { icon: "🏇", text: "Take me for a horse ride.." },
   { icon: "✍️", text: "Write down one goal for this new year." },
   { icon: "🎁", text: "Give me a challenge.." },
-  { icon: "💌", text: "I think it's time for Envelope #2" },
+  { icon: "💌", text: "10 situps with holding ears" },
   { icon: "🫣", text: "Give me a Kiss anywhere, except lips." },
   { icon: "💭", text: "Tell me a dream you haven't said out loud." },
   { icon: "🖐️", text: "Teach me one dance move... even if it's completely random." },
