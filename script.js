@@ -1,11 +1,11 @@
 
 const MEMORIES = [
+  { src: "images/memory-6.jpg",  caption: "Cutie Pie" },
   { src: "images/memory-1.jpg",  caption: "Our first photo" },
   { src: "images/memory-2.jpg",  caption: "My favourite One." },
   { src: "images/memory-3.jpg",  caption: "My favourite smile" },
   { src: "images/memory-4.jpg",  caption: "You made this day unforgettable" },
   { src: "images/memory-5.jpg",  caption: "Our first shopping day." },
-  { src: "images/memory-6.jpg",  caption: "Rainy day, warm hearts" },
   { src: "images/memory-7.jpg",  caption: "The trip we still talk about" },
   { src: "images/memory-8.jpg",  caption: "Midnight conversations" },
 ];
